@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <![endif]-->
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hernan - Personal Portfolio </title>
+    <!-- FAVICON ICON  -->
+    <link rel="apple-touch-icon" sizes="180x180" href="image/asset/favi/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="image/asset/favi/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="image/asset/favi/favicon-16x16.png">
+    <link rel="shortcut icon" href="image/asset/favi/android-chrome-192x192.png" type="image/x-icon">
+    
+    <!-- GOOGLE FONT -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&family=Rubik&display=swap"
+        rel="stylesheet">
+    <!-- ICONTFONT -->
+    <link href="css/vendor/icofont.min.css" rel="stylesheet">
+    <!-- BOOTSTRAP -->
+    <link href="css/vendor/bootstrap.min.css" rel="stylesheet">
+    <!-- MAGNIFIC POPUP -->
+    <link href="css/vendor/magnific.css" rel="stylesheet">
+    <!-- HEADLINE ANIMATED -->
+    <link href="css/vendor/headlineanimated.css" rel="stylesheet">
+    <!-- OWL CARAOUSEL CSS -->
+    <link href="css/vendor/owl.carousel.min.css" rel="stylesheet">
+    <link href="css/vendor/owl.theme.default.min.css" rel="stylesheet">
+    <!-- MAIN CSS -->
+    <link href="css/themes.css" rel="stylesheet">
+    <!-- RESPONSIVE CSS -->
+    <link href="css/responsive.css" rel="stylesheet">
+</head>
+
+<body>
+    <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    <!-- PRELOADER -->
+    <div class="preloader">
+        <div class="ellipsis">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+    <!-- MAIN WRAP -->
+    <div class="main-wrap">
+        <!-- SMALL MENU -->
+        <div class="overlay-fade"></div>
+        <div class="wrap-mobilemenu">
+            <button id="closesmenu" class="button-menu">
+                <i class="icofont-close-squared-alt"></i>
+            </button>
+        <nav class="menu-mobile">
+            <ul class="navigation-list">
+                <li><a class="nav-link" href="#about-wrap">Sobre Mi</a></li>
+                <li><a class="nav-link" href="#portfolio-wrap">Mis Trabajos</a></li>
+                <li><a class="nav-link" href="#wrap-resume">Mi Curriculum</a></li>
+                <li><a class="nav-link" href="#contact-section">Contacto</a></li>
+            </ul>
+        </nav>
+    </div>
+        <!-- HEADER WRAP -->
+        <header id="header-wrap">
+            <div class="main-headerwrap container">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <div class="logo-wrap">
+                            <img src="image/asset/logo-h-removebg.png" alt="logo" />
+                        </div>
+                    </div>
+                    <div class="col-lg-9 navigation-big">
+                        <nav class="navigation-wrap">
+                            <ul class="navigation-list">
+                                <li><a class="nav-link" href="#about-wrap">Sobre mi</a></li>
+                                <li><a class="nav-link" href="#portfolio-wrap">Mis Trabajos</a></li>
+                                <li><a class="nav-link" href="#wrap-resume">Mi Curriculum</a></li>
+                                <li><a class="nav-link" href="#contact-section">Contacto</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <button id="openmenu" class="button-menu">
+                        <i class="icofont-navigation-menu"></i>
+                    </button>
+                </div>
+            </div>
+        </header>
+        <!-- END HEADER WRAP -->
+        <!-- HERO WRAP -->
+         
+        <section id="wrap-hero" class="jarallax" style="background: url('image/hero/loenardo.png'); background-size: cover; background-position: center;
+        background-repeat: no-repeat;">
+            <div class="d-flex align-items-center justify-content-center inner-herocontent">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="detail-herowrap">
+                                <h1>Hernan  <span class="sec-word">Fernandez</span></h1>
+                                <div class="sosmed-home head-sosmed">
+                                    <ul class="sosmed-list">
+                                        <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                                        <li><a href="#"><i class="fa-brands fa-x-twitter" style="color: #000000;"></i> </a></li>
+                                        <li><a href="#"><i class="fa-brands fa-github"></i> </a></li>
+                                        <li><a href="#"><i class="fa-brands fa-linkedin"></i> </a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="sec-detailherowrap">
+                                <p class="title-detail">Introduction</p>
+                                <h3>Bienvenido a Mi Portfolio:
+                                    <span class="wrap-typed">
+                                        <!--contenido generado dinamicamnete -->
+                                        <span id="typed-text"></span>
+                                    </span>
+                                </h3>
+                                <div class="mini-detail">
+                                    <p>
+                                        Me considero un apasionado del desarrollo web. En este portafolio encontrarás una selección de mis proyectos más destacados, que demuestran mis habilidades en diseño, programación y gestión de proyectos. ¡Espero que disfrutes explorando mi trabajo tanto como yo disfruté creándolo!
+                                    </p>
+                                </div>
+                                <div class="big-text r-text li-text">01</div>
+                                <a href="#" class="button-link light-b llinks">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- FIN HERO WRAP -->
+        <!-- SOBRE MÍ -->
+        <section id="about-wrap" class="padtopbottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-7">
+                        <div class="big-text l-text da-text ">02</div>
+                        <div class="about-detailwrap offset-lg-4">
+                            <p class="title-detail">Historia corta</p>
+                            <h3>Sobre <span class="sec-word">mí</span></h3>
+                            <div class="mini-detail">
+                                <p>
+                                    Soy un entusiasta Desarrollador Web Full Stack, con un profundo interés en la programación. Cuento con experiencia tanto en proyectos propios como grupales, estos últimos fueron desarrollados dentro del programa Codo a Codo, del Gobierno de la Ciudad de Buenos Aires.
+                                </p>
+                            </div>
+                            <div class="mini-detailabout">
+                                <div class="row">
+                                    <div class="col-lg-6 ">
+                                        <div class="inner-detailabout">
+                                            <p>Nombre completo</p>
+                                            <h3>Hernan Fernandez</h3>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="inner-detailabout">
+                                            <p>Fecha de nacimiento </p>
+                                            <h3>06 nov, 1986</h3>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="inner-detailabout">
+                                            <p>Grado </p>
+                                            <h3>Maestría</h3>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="inner-detailabout">
+                                            <p>Ubicación </p>
+                                            <h3>Buenos Aires, ARGENTINA</h3>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="inner-detailabout">
+                                            <p>Teléfono </p>
+                                            <h3>080989999</h3>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="inner-detailabout">
+                                            <p>Email </p>
+                                            <h3>tester@yourdomain.com</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="#" class="button-link dark-b llinks">Download Cv</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="wrap-imageabout">
+                            <img src="image/hero/leo-sobremi.png" alt="photo" />
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <!--LO QUE HAGO -->
+                        <div class="mini-detailwhatido ">
+                            <div id="wrapido" class="owl-carousel owl-theme">
+                                <!-- WHAT IDO ITEM -->
+                               <!-- <div class="wrap-whatido">
+                                    <div class="wrap-whatidodetail">
+                                        <div class="inner-detailido">
+                                            <i class="icofont-vector-path icon-w"></i>
+                                            <h3>Diseño de Producto.</h3>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut dolore
+                                                vitae repellendus natus</p>
+                                        </div>
+                                    </div>
+                                </div>-->
+                                <!--WHAT IDO ITEM-->
+                                <!--<div class="wrap-whatido">
+                                    <div class="wrap-whatidodetail">
+                                        <div class="inner-detailido">
+                                            <i class="icofont-camera icon-w"></i>
+                                            <h3>Photogrpaher.</h3>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut dolore
+                                                vitae repellendus natus</p>
+                                        </div>
+                                    </div>
+                                </div>-->
+                                <!-- WHAT IDO ITEM -->
+                               <!-- <div class="wrap-whatido">
+                                    <div class="wrap-whatidodetail">
+                                        <div class="inner-detailido">
+                                            <i class="icofont-brush icon-w"></i>
+                                            <h3>Web Design.</h3>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut dolore
+                                                vitae repellendus natus</p>
+                                        </div>
+                                    </div>
+                                </div>-->
+                                <!-- WHAT IDO ITEM -->
+                                <!--<div class="wrap-whatido">
+                                    <div class="wrap-whatidodetail">
+                                        <div class="inner-detailido">
+                                            <i class="icofont-code-alt icon-w"></i>
+                                            <h3>Development.</h3>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut dolore
+                                                vitae repellendus natus</p>
+                                        </div>
+                                    </div>
+                                </div>-->
+                            </div>
+                        </div>
+                        <!-- END WHAT IDO -->
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- PORTFOLIo WRAP -->
+        <section id="portfolio-wrap">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="big-text r-text da-text ">03</div>
+                        <div class="wrap-titleporto">
+                            <p class="title-detail">portfolio</p>
+                            <h3>Mis <span class="sec-word">trabajo</span></h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="mini-detail">
+                            <p>
+                                Soy estudiante del curso Full Stack brindado por el Gobierno de la Ciudad, donde he desarrollado habilidades en diseño y desarrollo web. Durante mi formación, he trabajado en proyectos que integran tecnologías modernas como HTML, CSS, JavaScript, Python, Nodes, y bases de datos,
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="row">
+                            <div class="col-lg-8 mt-4">
+                                <!-- PORTFOLIO FILTER -->
+                                <ul class="filter-list">
+                                    <li data-filter="*" class="aktip"><span>Todo los Trabajo</span></li>
+                                    <li data-filter=".web"><span>Diseño Web</span></li>
+                                    <li data-filter=".brand"><span>Branding</span></li>
+                                    <li data-filter=".ui/ux"><span>UI/UX</span></li>
+                                    <li data-filter=".poto"><span>Fotografía</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <div class="porto-content">
+                            <div class="porto-item web">
+                                <a class="image-popup gallery-link" href="image/portfolio/3.jpg">
+                                    <div class="wrap-portoiner">
+                                        <img src="image/portfolio/Captura de pantalla 2025-01-05 174318.png" alt="pohto url" />
+                                        <div class="info-porto">
+                                            <div class="description-porto">
+                                                <h3>web de electrodomesticos Interactiva</h3>
+                                                <span>Diseñé y desarrollé una página web interactiva utilizando HTML, CSS y JavaScript. El proyecto incluyó animaciones dinámicas y una navegación fluida, logrando una experiencia de usuario moderna y atractiva. Este trabajo fue el resultado de un curso avanzado de desarrollo web</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <!-- END PORTFOLIO ITEM -->
+                            <div class="porto-item web">
+                                <a class="image-popup gallery-link" href="image/portfolio/6.jpg">
+                                    <div class="wrap-portoiner">
+                                        <img src="image/portfolio/Captura desencrip.png" alt="porto" />
+                                        <div class="info-porto">
+                                            <div class="description-porto">
+                                                <h3>Landing Page desencriptador de texto</h3>
+                                                <span>Este proyecto es una aplicacion web permite a los usuarios encriptar y desncriptar texto. Tegnologias Utilizadas
+                                                    HTML5: Estructura de la pagina.
+                                                    CSS : Estilos y diseño responsivo.
+                                                    JavaScript: Logica de encriptacion y desencriptacion, y manipulacion del DOM.</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <!--  PORFOLIO ITEM -->
+                            <div class="porto-item poto">
+                                <a class="image-popup gallery-link" href="image/portfolio/4.jpg">
+                                    <div class="wrap-portoiner">
+                                        <img src="image/portfolio/4.jpg" alt="porto" />
+                                        <div class="info-porto">
+                                            <div class="description-porto">
+                                                <h3>Apredndiendo </h3>
+                                                <span>en apredisazaje</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                          
+                            <!-- END PORTFOLIO ITEM -->
+                            <!--  PORFOLIO ITEM -->
+                            
+                            <!-- END PORTFOLIO ITEM -->
+                            <!--  PORFOLIO ITEM -->
+                            <div class="porto-item brand">
+                                <a class="image-popup gallery-link" href="image/portfolio/5.jpg">
+                                    <div class="wrap-portoiner">
+                                        <img src="image/portfolio/5.jpg" alt="porto" />
+                                        <div class="info-porto">
+                                            <div class="description-porto">
+                                                <h3>Walking man nowhare</h3>
+                                                <span>design grapich project</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <!-- END PORTFOLIO ITEM -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- RESUME -->
+        <section id="wrap-resume">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="big-text r-text da-text ">04</div>
+                        <div class="wrap-titleporto ">
+                            <p class="title-detail">Resumen</p>
+                            <h3>Mi <span class="sec-word">Curriculum</span></h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="mini-detail">
+                            <p>
+                                "Soy diseñador y desarrollador con una gran pasión por el diseño web. Mi objetivo es crear experiencias digitales modernas, funcionales y atractivas que impacten positivamente a los usuarios."
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="title-top">
+                            <h3>Experiencia.</h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="wrap-itemresume">
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <div class="l-side">
+                                        <h3>Front-end Developer</h3>
+                                        <p>1 Feb 2018 - Present </p>
+                                        <span class="work-stat">
+                                            Full TIme
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="col-lg-8">
+                                    <div class="r-side">
+                                        <h3>Company Description</h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi quisquam
+                                            illum debitis est, adipisci perferendis fugiat. Suscipit expedita molestias
+                                            voluptate itaque illum dolorem assumenda consequatur inventore illo.
+                                            Asperiores, rerum quidem.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="wrap-itemresume">
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <div class="l-side">
+                                        <h3>Front-end Developer</h3>
+                                        <p>1 Feb 2018 - Present </p>
+                                        <span class="work-stat">
+                                            Full TIme
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="col-lg-8">
+                                    <div class="r-side">
+                                        <h3>Company Description</h3>
+
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi quisquam
+                                            illum debitis est, adipisci perferendis fugiat. Suscipit expedita molestias
+                                            voluptate itaque illum dolorem assumenda consequatur inventore illo.
+                                            Asperiores, rerum quidem.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="title-top">
+                            <h3>Educación.</h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="wrap-itemresume">
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <div class="l-side">
+                                        <h3>Curso fullStack Python, Programa Codo a Codo, Gobierno de la Ciudad de Buenos Aires.</h3>
+                                        <p>07/2023 - 12/2023 </p>
+                                        <span class="work-stat">
+                                            Graduado
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="col-lg-8">
+                                    <div class="r-side">
+                                        <h3>Descripcion</h3>
+                                        <p>Curso intensivo de desarrollo FullStack con enfoque en Python, orientado a la creación de aplicaciones web modernas. Aprendí a desarrollar tanto el frontend como el backend, utilizando herramientas y tecnologías como HTML, CSS, JavaScript, Flask, Django y bases de datos relacionales como MySQL. También adquirí habilidades en metodologías ágiles y manejo de proyectos colaborativos utilizando Git y GitHub.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-12">
+                        <div class="wrap-itemresume">
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <div class="l-side">
+                                        <h3>Curso Desarrollo Web (JavaScript/Nodes.js) Programa Codo a Codo 4.0, Gobierno de la Ciudad de Buenos Aires.</h3>
+                                        <p>02/2024 - 07/2024 </p>
+                                        <span class="work-stat">
+                                            Graduado
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="col-lg-8">
+                                    <div class="r-side">
+                                        <h3>Descripcion</h3>
+                                        <p>Curso intensivo enfocado en el desarrollo de aplicaciones web utilizando JavaScript como lenguaje principal. Aprendí a crear interfaces de usuario interactivas y responsivas con frameworks modernos como React, y a desarrollar aplicaciones del lado del servidor con Node.js y Express. También se abordaron conceptos como manejo de bases de datos no relacionales (MongoDB), creación de API RESTful, control de versiones con Git, y despliegue de aplicaciones en la nube.
+                                        </p>
+                                      
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-12">
+                        <div class="title-top">
+                            <h3>Mis Habilidades.</h3>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <div class="part-col">
+                            <h3>Habilidad de Diseño</h3>
+                            <p>Como diseñador, poseo una amplia gama de habilidades que me permiten crear soluciones visuales efectivas y atractivas. A continuación, se presentan algunas de mis principales competencias en el ámbito del diseño.</p>
+                            
+                            <div class="wrap-bar">
+                                <p class="title-pp">Diseño de página web </p>
+                                <div class="skill-bar" data-valuenow="92">
+                                    <span>92%</span>
+                                </div>
+                            </div>
+                            <div class="wrap-bar">
+                                <p class="title-pp">Diseño Gráfico</p>
+                                <div class="skill-bar" data-valuenow="80">
+                                    <span>72%</span>
+                                </div>
+                            </div>
+                            <div class="wrap-bar">
+                                <p class="title-pp">Ilustraciones</p>
+                                <div class="skill-bar" data-valuenow="50">
+                                    <span>50%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="part-col dark-one">
+                            <h3>Habilidad de programación
+                            </h3>
+                            <p>"Durante mi formación en Desarrollador Full Stack.he adquirido conocimientos prácticos y teóricos en diversas tecnologías.  Que me han permitido aplicar estos aprendizajes y mejorar mis habilidades en programación y diseño web."</p>
+                            <div class="wrap-bar">
+                                <p class="title-pp">Html</p>
+                                <div class="skill-bar" data-valuenow="80">
+                                    <span>90%</span>
+                                </div>
+                            </div>
+                            <div class="wrap-bar">
+                                <p class="title-pp">Javascript</p>
+                                <div class="skill-bar" data-valuenow="60">
+                                    <span>60%</span>
+                                </div>
+                            </div>
+                            <div class="wrap-bar">
+                                <p class="title-pp">Python</p>
+                                <div class="skill-bar" data-valuenow="50">
+                                    <span>50%</span>
+                                </div>
+                            </div>
+                            <div class="wrap-bar">
+                                <p class="title-pp">Nodes</p>
+                                <div class="skill-bar" data-valuenow="50">
+                                    <span>50%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="part-col">
+                            <h3>Conocimiento de otras Tecnologia</h3>
+                            <p>Algunas de las tecnologías con las que trabajo incluyen HTML, CSS, JavaScript, y frameworks como React y Node.js. Además, tengo conocimiento en el manejo de bases de datos y la integración de APIs.</p>
+                            <div class="wrap-bar">
+                                <p class="title-pp">Django</p>
+                                <div class="skill-bar" data-valuenow="50">
+                                    <span>50%</span>
+                                </div>
+                            </div>
+                            <div class="wrap-bar">
+                                <p class="title-pp">My SQL</p>
+                                <div class="skill-bar" data-valuenow="50">
+                                    <span>92%</span>
+                                </div>
+                            </div>
+                            <div class="wrap-bar">
+                                <p class="title-pp">React</p>
+                                <div class="skill-bar" data-valuenow="30">
+                                    <span>92%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="wrap-partnercontainer">
+                <div id="partner-sliderwrap" class="container">
+                    <div class="row">
+                        <!--<div class="col-lg-12">
+                            <div class="partner-wrap owl-carousel" id="craxpartner-slide">
+                                ITEM PARTNER 
+                                <div class="item-partner">
+                                    <img src="image/partner/1.png" alt="partner" />
+                                </div>
+                                 ITEM PARTNER 
+                                <div class="item-partner">
+                                    <img src="image/partner/2.png" alt="partner" />
+                                </div>
+                                 ITEM PARTNER 
+                                <div class="item-partner">
+                                    <img src="image/partner/3.png" alt="partner" />
+                                </div>
+                                 ELEMENTO SOCIO 
+                                <div class="item-partner">
+                                    <img src="image/partner/5.png" alt="partner" />
+                                </div>-->
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- CONTACT SECTION -->
+        <section id="contact-section">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <div class="contact-form">
+                            <div class="title-top">
+                                <h3>Contacto.</h3>
+                            </div>
+                            <div class="mini-detail">
+                                <p>
+                                    Si tienes alguna pregunta o deseas discutir un proyecto, no dudes en ponerte en contacto conmigo. Estoy disponible para consultas y colaboraciones.
+                                </p>
+                            </div>
+                            <form action="https://formspree.io/f/xqakqovl" method="POST" accept-charset="utf-8" id="form-contact">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <input type="text" placeholder="Nombre" name="Fname" />
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <input type="text" placeholder="Apellido" name="Lname" />
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <input type="text" placeholder="Correo Electrónico" name="Email" />
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <textarea class="textarea" placeholder="Tu Mensaje" name="Comment"></textarea>
+                                        <button type="submit" class="button-link dark-b llinks">Enviar ahora</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 ml-auto">
+                        <div class="detail-contact">
+                            <div class="title-top">
+                                <h3>Otros medios de Contacto.</h3>
+                            </div>
+                            <div class="mini-detail">
+                                <p>
+                                    Tambien puedes contactarme a través de los siguientes canales:
+                                </p>
+                               
+                            </div>
+                            <div class="detail-info">
+                                
+                                <i class="fa-solid fa-location-dot the-icon"></i>
+                                <div class="inner-detail">
+                                    <p> Buenos Aires<br />
+                                        1234, Argentina</p>
+                                </div>
+                            </div>
+                            <div class="detail-info">
+                               
+                                <i class="fa-solid fa-phone the-icon"></i>
+                                <div class="inner-detail">
+                                    <p>Teléfono:<br />
+                                        01135974873</p>
+                                </div>
+                            </div>
+                            <div class="detail-info">
+                                
+                                <i class="fa-solid fa-envelope the-icon"></i>
+                                <div class="inner-detail">
+                                    <p>Correo Electrónico:<br />
+                                        herny3154@gmail.com
+                                </div>
+                            </div>
+                            <div class="sosmed-home foot-sosmed">
+                                <ul class="sosmed-list">
+                                    <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-x-twitter" style="color: #000000;"></i> </a></li>
+                                    <li><a href="#"><i class="fa-brands fa-github"></i> </a></li>
+                                    <li><a href="#"><i class="fa-brands fa-linkedin"></i> </a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- FOOTER -->
+        <footer id="footer-wrap">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="wrap-title-foot">
+                         <!-- <b>Hernan Fernandez 2021</b> All Rights Reserveh</h3>-->
+                            <p>&copy; 2025 Hernan Fernandez. <br>Todo los derechos reservado.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- SCROLLTOP -->
+        <a href="#" class="scroll-top">
+            <i class="icofont-arrow-up dropicon">
+            </i>
+        </a>
+    </div>
+    <!-- END MAIN WRAP -->
+    <!-- JAVASCRIPT JQUERY -->
+    <script src="javascript/vendor/jquery.js"></script>
+    <!-- BOOTSTRAP -->
+    <script src="javascript/vendor/bootstrap.min.js"></script>
+    <!-- MAGNIFIC POPUP -->
+    <script src="javascript/vendor/magnific.js"></script>
+    <!-- OWL CAROUSEL -->
+    <script src="javascript/vendor/owl.carousel.min.js"></script>
+    <!-- ISOTOPE -->
+    <script src="javascript/vendor/isotope.js"></script>
+    <!-- HEADLINE ANIMATED -->
+    <script src="javascript/vendor/typed.js"></script>
+    <!-- JARALLAX -->
+    <script src="javascript/vendor/jarallax.js"></script>
+    <!-- MAIN JAVASCRIPT -->
+    <script src="javascript/main.js"></script>
+    <script src="https://kit.fontawesome.com/9c91d36df0.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

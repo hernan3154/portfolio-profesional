@@ -1,10 +1,4 @@
-/*
-* ----------------------------------------------------------------------------------------
-Author        : Rama Hardian
-Template Name : Simplixe - multipurpose onepage portfolio
-Version       : 1.0 FREE
-* ----------------------------------------------------------------------------------------
-*/
+
 "use strict";
 var Window = $(window);
 var Slide1 = $('#slide-brand');
@@ -16,7 +10,7 @@ var goup = $('.scroll-top');
 var partner = $('#craxpartner-slide');
 var slideoutMenu = $('.wrap-mobilemenu');
 var slideoutMenuWidth = $('.wrap-mobilemenu').width();
-//Filtering items on portfolio
+//Filtrando elementos en el portafolio
 var portfolioFilter = $('.filter-list li');
 // filter items on button click
 $(portfolioFilter).on('click', function () {
@@ -25,18 +19,18 @@ $(portfolioFilter).on('click', function () {
     filter: filterValue
   });
 });
-//Add/remove class on filter list
+//Agregar/quitar clase en la lista de filtros
 $(portfolioFilter).on('click', function () {
   $(this).addClass('aktip').siblings().removeClass('aktip');
 });
-// documennt ready
+// documento listo
 $(document).ready(function () {
   $('.skill-bar').each(function (i) {
     var width = $(this).attr('data-valuenow');
     $(this).width(width + '%');
     $(this).html('<span>' + width + '%</span>');
   });
-  //animated typed init contenido a generar dinamicamnete------------------------
+   //inicialización de texto animado generado dinámicamente------------------------
   new Typed('#typed-text', {
     strings: ["Diseñador UI/UX", "Desarrollador full Stack", "Diseñador de Productos"],
     typeSpeed: 50,
@@ -46,7 +40,7 @@ $(document).ready(function () {
     loop: true,
     showCursor: true
   });
-  // owl caraousel
+  // carrusel de búho
   $('#wrapido').owlCarousel({
     loop: true,
     items: 4,
@@ -77,7 +71,7 @@ $(document).ready(function () {
       }
     }
   });
-  // partner slide
+   // carrusel de socios
   partner.owlCarousel({
     loop: true,
     nav: false,
@@ -102,14 +96,14 @@ $(document).ready(function () {
       }
     }
   });
-  /* isotope */
+   /* isótopo */
   $('.porto-content').isotope({
     resizable: false,
     itemSelector: '.porto-item',
     layoutMode: 'masonry',
     filter: '*'
   });
-  /*parallax hero */
+  /* héroe de paralaje */
   $('.jarallax').jarallax({
     speed: 0.5,
     disableParallax: function () {
@@ -119,14 +113,14 @@ $(document).ready(function () {
       return /iPad|iPhone|iPod|Android/.test(navigator.userAgent);
     }
   });
-  // magnific image init ----------------------
+   // inicialización de imagen magnífica ----------------------
   $('.image-popup').magnificPopup({
     type: 'image',
     gallery: {
       enabled: true
     }
   });
-  // mobile navigation init ----------------------
+   // inicialización de navegación móvil ----------------------
   $('.menu-mobile > .navigation-list li a').on("click", function (e) {
     var anchor = $(this);
     slideoutMenu.animate({
@@ -146,7 +140,7 @@ $(document).ready(function () {
     }, 500);
     $('.overlay-fade').show();
   });
-  // navbar mobile overlay close init ----------------------
+  // inicialización de cierre de superposición de navegación móvil ----------------------
   $(document).on('click', '#closesmenu', function () {
     slideoutMenu.animate({
       right: -slideoutMenuWidth
@@ -211,7 +205,7 @@ $(document).ready(function () {
     });
   };
 });
-/*scroll window */
+/* ventana de desplazamiento */
 Window.on('scroll', function () {
   if (Window.scrollTop() > 300) {
     goup.addClass('show')

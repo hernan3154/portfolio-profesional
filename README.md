@@ -7,8 +7,8 @@ Este es el código fuente de mi portafolio personal. Aquí puedes encontrar info
 - **index.html**: El archivo principal que contiene la estructura HTML de la página.
 - **css/**: Carpeta que contiene los archivos CSS para el estilo de la página.
     - `vendor/`: Contiene archivos CSS de terceros como Bootstrap, Icofont, etc.
-    - `themes.css`: Archivo CSS principal para los estilos personalizados.
-    - `responsive.css`: Archivo CSS para los estilos responsivos.
+    - `style.css`: Archivo CSS principal para los estilos personalizados.
+    - `responsivo.css`: Archivo CSS para los estilos responsivos.
 - **image/**: Carpeta que contiene las imágenes utilizadas en la página.
     - `asset/`: Contiene los iconos y el logo.
     - `hero/`: Contiene las imágenes de la sección de héroe.
